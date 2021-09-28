@@ -1,5 +1,5 @@
 variable "project" {
-  default = "iacbramos"
+  default = "iacbramos" # Altere para o seu projeto
 }
 
 variable "credentials" {
@@ -27,11 +27,11 @@ variable "image_os"{
 }    
 
 variable "ssh_user" {
-  default = "bruno"
+  default = "bruno" # Altere para o seu usuário SSH
 }
       
 variable "ssh_key" {
-    default = "~/.ssh/id_rsa.pub"        
+    default = "~/.ssh/id_rsa.pub" # Informe o caminho da sua chave pública SSH
 }
 
 variable "vpc_network" {
