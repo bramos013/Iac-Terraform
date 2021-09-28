@@ -26,9 +26,9 @@ resource "google_compute_instance" "vm_instance" {
     }
   }  
    
-    metadata = {
-      "sshkeys" = "${var.ssh_user}:${file(var.ssh_key)}"
-    }
+  #  metadata = {
+   #   "sshkeys" = "${var.ssh_user}:${file(var.ssh_key)}"
+    #}
 
     metadata_startup_script = "yum install -y nginx; systemctl start nginx"
 
