@@ -1,6 +1,0 @@
-sudo: required
-install:
-- yum install -y nginx; systemctl start nginx
-
-script:
-- ./test.sh
