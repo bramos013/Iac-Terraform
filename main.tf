@@ -1,3 +1,14 @@
+terraform {
+  backend "gitHub" {
+    # The name of your Terraform Cloud organization.
+    organization = "bramos"
+      # The name of the Terraform Cloud workspace to store Terraform state files in.
+    workspaces {
+      name = "iacbramos"
+    }
+  }
+}
+
 provider "google" {
     credentials = "${var.credentials}"
     project = "${var.project}"
