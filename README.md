@@ -1,5 +1,5 @@
 ## Iac(Infra As Code) 
-![Build Status](https://github.com/bramos013/Iac-Terraform/actions/workflows/terraform.yml/badge.svg?branch=master)
+![Build Status](https://github.com/bramos013/Iac-Terraform/actions/workflows/terraform.yml/badge.svg?event=push)
 
 Esse repositório foi desenvolvido com o objetido de realizar um estudo dirigido em Iac(Infra As Code), no qual sua função é criar uma VM através do Compute Engine do GCP(Google Cloud Plataform) utilizando Terraform como Aplicação de provisionamento de infraestrutura. Ele será o responsável por criar uma VM e um firewall liberando as portas 21,22,80 e 443, por fim será realizada a instalação do webserver Nginx.
 
