@@ -22,5 +22,6 @@ Para verificar se a VM foi criada e está funcional, basta rodar o script `./tes
 `bruno@bruno-OptiPlex-9020:~/Documentos/Git/Iac-Terraform$ ./test.sh`
 *Domínio 35.247.239.152 retornando status 200*
 
+Esse repositório conta com um build status no README, no qual irá apresentar o resultado da pipeline desenvolvida utilizando o GitHub Actions visando CI/CD
 
 
